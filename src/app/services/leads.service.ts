@@ -107,10 +107,11 @@ export class LeadsService {
     const leads = JSON.parse(leadString) as any[];
     leads.push(lead)
     window.localStorage.setItem('leads', JSON.stringify(leads))
+    console.log(`Leads stored ${leads.length}`)
   }
 
   private retryFailed() {
-    interval(20000)
+    interval(5000)
       .subscribe(() => {
         let leadString = window.localStorage.getItem('leads');
         if (!leadString) {
