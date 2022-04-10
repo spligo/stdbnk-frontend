@@ -1,0 +1,196 @@
+{
+  "leadId": "",
+  "leadDefinitionId": "",
+  "versionId": "",
+  "quoteNumber": "",
+  "salesConsultantNo": "",
+  "salesPersonName": "",
+  "salesPersonSurname": "",
+  "salesPersonEmail": "",
+  "comments": null,
+  "communicationTypeId": null,
+  "leadSectionsData": [
+    {
+      "leadSectionId": "784e73c7-7f2d-4101-9319-61d6d49ce95a",
+      "leadSectionDefinitionId": "93b06d66-d2b0-4b99-8c57-1b8bfcf14c58",
+      "parentLeadSectionId": null,
+      "name": "customers",
+      "description": "customers",
+      "leadSectionItems": [
+        {
+          "leadSectionItemId": "306c893b-08bc-4896-9d51-42cc1d881130",
+          "leadSectionItemDefinitionId": "c4409700-a027-4ac5-ba34-e85fe3e74543",
+          "itemName": "customer",
+          "description": "customer",
+          "parentLeadSectionItemID": null,
+          "leadSectionItemProperties": [
+            {
+              "leadSectionItemPropertyId": "49fa73f3-687b-46a1-a7fd-c2cac6caa3e1",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "personkey",
+              "label": "personkey",
+              "leadSectionItemPropertyDefinitionId": "c1ffa3ef-b9b4-4ed6-9b30-43d3ce119547",
+              "actualValue": "person001"
+            },
+            {
+              "leadSectionItemPropertyId": "fd1f1b93-4879-4fab-bd84-774a4f7538af",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "firstname",
+              "label": "firstname",
+              "leadSectionItemPropertyDefinitionId": "35e86f9b-8204-48ff-b6b4-b553ed901e77",
+              "actualValue": "John"
+            },
+            {
+              "leadSectionItemPropertyId": "3754874d-75db-4ed8-9b31-de0cc8c51c65",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "surname",
+              "label": "surname",
+              "leadSectionItemPropertyDefinitionId": "c03ca41e-f90a-49e2-b0e8-a7cefe0893b4",
+              "actualValue": "Mammen"
+            }
+          ],
+          "childSectionItems": [
+            {
+              "leadSectionItemId": "efbf8f54-2894-4463-aca2-fc078f9bf957",
+              "leadSectionItemDefinitionId": "604003b2-f588-4e37-9b7f-3708066f9984",
+              "itemName": "contacts",
+              "description": "contacts",
+              "parentLeadSectionItemID": null,
+              "leadSectionItemProperties": [
+                {
+                  "leadSectionItemPropertyId": "66507f3b-a353-48b2-8e1b-ab2d6b4637cc",
+                  "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+                  "propertyName": "key",
+                  "label": "key",
+                  "leadSectionItemPropertyDefinitionId": "76619be8-b948-4a89-8b7b-0791e016aeaa",
+                  "actualValue": "person001.contact001"
+                },
+                {
+                  "leadSectionItemPropertyId": "74f1db8a-915b-44d5-b24f-53851047d980",
+                  "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+                  "propertyName": "key",
+                  "label": "key",
+                  "leadSectionItemPropertyDefinitionId": "833620ad-bf64-46ba-b97c-d9a117b5eae3",
+                  "actualValue": "person001.contact002"
+                }
+              ],
+              "childSectionItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leadSectionId": "600dfc23-eecf-4936-bc38-d530eb29ac0e",
+      "leadSectionDefinitionId": "725255f7-4e03-46e2-870f-9b54470ea82d",
+      "parentLeadSectionId": null,
+      "name": "contacts",
+      "description": "contacts",
+      "leadSectionItems": [
+        {
+          "leadSectionItemId": "46dd92c8-dfbf-4fbb-8617-2a085f69b50b",
+          "leadSectionItemDefinitionId": "84e28dae-087c-4246-9aab-5609175593b7",
+          "itemName": "contactsitem1",
+          "description": "contactsitem1",
+          "parentLeadSectionItemID": null,
+          "leadSectionItemProperties": [
+            {
+              "leadSectionItemPropertyId": "8bdc8077-46bd-40f2-8b88-2b1acc48d5d3",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "contactKey",
+              "label": "contactKey",
+              "leadSectionItemPropertyDefinitionId": "c713681c-41d3-4cf4-8d97-24c3358810cf",
+              "actualValue": "person001.contact001"
+            },
+            {
+              "leadSectionItemPropertyId": "43c47d11-123c-4334-8b71-74f1c080e024",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "text",
+              "label": "text",
+              "leadSectionItemPropertyDefinitionId": "a9dfa7ad-6407-4df7-ba73-fb637f7a10ab",
+              "actualValue": "0643432266"
+            },
+            {
+              "leadSectionItemPropertyId": "4afe3142-5649-4046-a45d-38715f7423ab",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "contactType",
+              "label": "contactType",
+              "leadSectionItemPropertyDefinitionId": "cd525226-a7ba-4cdf-97af-4337946b9aae",
+              "actualValue": "mobileno"
+            }
+          ],
+          "childSectionItems": []
+        },
+        {
+          "leadSectionItemId": "e748217f-47f0-478c-a15e-4a02e9ddb6f7",
+          "leadSectionItemDefinitionId": "69f498ec-fcc0-4e05-a860-b2c49cf44c93",
+          "itemName": "contactsitem2",
+          "description": "contactsitem2",
+          "parentLeadSectionItemID": null,
+          "leadSectionItemProperties": [
+            {
+              "leadSectionItemPropertyId": "2983ae3a-569d-42c5-b1a7-3a44f38210e6",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "contactKey",
+              "label": "contactKey",
+              "leadSectionItemPropertyDefinitionId": "369468ae-1a23-419f-9a94-6f14da93b0fc",
+              "actualValue": "person001.contact002"
+            },
+            {
+              "leadSectionItemPropertyId": "0d5e4350-ceb6-4f5e-95a6-122d6d0e0129",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "text",
+              "label": "text",
+              "leadSectionItemPropertyDefinitionId": "6a9f20f5-03cf-4d6c-a41c-8c79edab0749",
+              "actualValue": "johh.mammen@hotmail.com"
+            },
+            {
+              "leadSectionItemPropertyId": "e4929c5b-9960-4d12-b871-fe324ef7f0c3",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "contactType",
+              "label": "contactType",
+              "leadSectionItemPropertyDefinitionId": "cc13633c-10bb-4631-bc1a-5706c946c035",
+              "actualValue": "email"
+            }
+          ],
+          "childSectionItems": []
+        }
+      ]
+    },
+    {
+      "leadSectionId": "445ac8fc-0615-4caa-9f63-b001ab08b46d",
+      "leadSectionDefinitionId": "9a30d052-302f-4403-b177-3bbcd2025d5d",
+      "parentLeadSectionId": null,
+      "name": "leadQueries",
+      "description": "leadQueries",
+      "leadSectionItems": [
+        {
+          "leadSectionItemId": "d7e1a1b0-61bf-4903-8316-8116da199f06",
+          "leadSectionItemDefinitionId": "342738a4-00dd-4e4b-83bb-98f36b34f266",
+          "itemName": "leadQuery",
+          "description": "leadQuery",
+          "parentLeadSectionItemID": null,
+          "leadSectionItemProperties": [
+            {
+              "leadSectionItemPropertyId": "6aefcd0b-927f-451f-ae9c-04fe15ca191f",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "queryType",
+              "label": "queryType",
+              "leadSectionItemPropertyDefinitionId": "50113cd8-8974-4cd4-8570-f77a84c64b7e",
+              "actualValue": "Sales"
+            },
+            {
+              "leadSectionItemPropertyId": "9286563d-df61-4161-a86a-b6d53d70a09a",
+              "leadSectionItemId": "00000000-0000-0000-0000-000000000000",
+              "propertyName": "queryKey",
+              "label": "queryKey",
+              "leadSectionItemPropertyDefinitionId": "b562c0f0-e320-41ef-8538-b866fd35c80e",
+              "actualValue": ""
+            }
+          ],
+          "childSectionItems": []
+        }
+      ]
+    }
+  ]
+}
